@@ -16,16 +16,16 @@ if (age < 12) {
     price = price - (basePrice * 50 / 100)
 }
 
-if (movieRating === "18+" && age < 18) {
+if (movieRating == "18+" && age < 18) {
     console.log("Вход запрещён: фильм только для зрителей старше 18 лет")
 }
-else if (movieRating === "16+" && age < 16) {
+else if (movieRating == "16+" && age < 16) {
     console.log("Вход запрещён: фильм только для зрителей старше 16 лет")
 }
-else if (movieRating === "14+" && age < 14) {
+else if (movieRating == "14+" && age < 14) {
     console.log("Вход запрещён: фильм только для зрителей старше 14 лет")
 }
-else if (movieRating === "12+" && age < 12) {
+else if (movieRating == "12+" && age < 12) {
     console.log("Вход запрещён: фильм только для зрителей старше 12 лет")
 }
 else {
